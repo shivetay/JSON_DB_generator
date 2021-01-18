@@ -4,5 +4,14 @@
   "description": "small node.js JSON data generator",
   "main": "index.js",
   "author": "LD",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.7"
+  }
 }
