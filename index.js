@@ -1,4 +1,5 @@
 const express = require('express');
+const fs = require('fs');
 const faker = require('faker');
 const _ = require('lodash');
 
@@ -15,7 +16,8 @@ app.get('/data', (req, res) => {
   res.send(
     _.times(count, () => {
       const address = faker.address;
-      return {
+
+      payload = {
         country: address.country(),
         city: address.city(),
         state: address.state(),
@@ -23,6 +25,7 @@ app.get('/data', (req, res) => {
         latitude: address.latitude(),
         longitude: address.longitude(),
       };
+      return payload;
     })
   );
 });
