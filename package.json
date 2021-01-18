@@ -1,0 +1,8 @@
+{
+  "name": "node_data_generator",
+  "version": "1.0.0",
+  "description": "small node.js JSON data generator",
+  "main": "index.js",
+  "author": "LD",
+  "license": "MIT"
+}
