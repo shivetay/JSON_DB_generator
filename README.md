@@ -7,7 +7,11 @@ In a future this will create a JSON file.
 
 Use: `npm init`
 
-Install all dependencies
+Install all dependencies,
+
+Use: `npm start`
+
+This will start <b>data server</b>
 
 ## Usage
 
