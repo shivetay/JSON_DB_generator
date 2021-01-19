@@ -26,7 +26,12 @@ For extra configuration please check [faker.js](https://www.npmjs.com/package/fa
 1. Products
 
 ```
-const commerce = faker.commerce; return { product: commerce.product(), price: commerce.price(), color: commerce.color() };
+const commerce = faker.commerce;
+return {
+  product: commerce.product(),
+  price: commerce.price(),
+  color: commerce.color()
+};
 ```
 
 2. Photos
